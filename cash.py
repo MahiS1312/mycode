@@ -5,7 +5,7 @@ import sys
 def process_cash_payment(amount):
     if amount <= 0:
         return "Invalid amount. Please enter a positive value."
-    return f"Cash payment of ${amount:.2f} processed successfully."
+    return f"Cash payment of ${amount:.2f} processed."
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
