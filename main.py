@@ -1,5 +1,5 @@
 def greet(name):
-    return f"Hello, {name}! Welcome to Jenkins CI/CD Demo."
+    return f"Hello, {name}! Welcome to Jenkins CI/CD pipeline."
 
 if __name__ == "__main__":
     name = input("Enter your name: ")
